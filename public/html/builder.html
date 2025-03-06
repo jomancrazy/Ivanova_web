@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Builder - Ivanova Web</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/builder.css"> 
+</head>
+<body>
+    <header></header>
+    <main>
+        <section id="home">
+            <h2>Builder</h2>
+            <p>Encuentra los mejores productos de builder para tus necesidades.</p>
+        </section>
+        <section id="products">
+            <h2>Productos</h2>
+            <div class="product-grid">
+                <!-- Aquí irán los productos -->
+                <div class="product-item">
+                    <img src="../assets/productos/builder/builder_pure_love.jpeg" alt="Builder Pure Love">
+                    <h3>Builder Pure Love</h3>
+                    <p>Q125.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/builder/biab_snow_white.jpeg" alt="BIAB Snow White">
+                    <h3>BIAB Snow White</h3>
+                    <p>Q125.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/builder/modeling_glow1.jpeg" alt="Modeling Gel Glow 1">
+                    <h3>Modeling Gel Glow 1</h3>
+                    <p>Q75.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/builder/modeling_gel_melon.jpeg" alt="Modeling Gel Melon">
+                    <h3>Modeling Gel Melon</h3>
+                    <p>Q125.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/builder/builder_jelly1.jpeg" alt="Builder Jelly 1">
+                    <h3>Builder Jelly 1</h3>
+                    <p>Q75.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/builder/builder_jelly2.jpeg" alt="Builder Jelly 2">
+                    <h3>Builder Jelly 2</h3>
+                    <p>Q75.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/builder/builder_jelly3.jpeg" alt="Builder Jelly 3">
+                    <h3>Builder Jelly 3</h3>
+                    <p>Q75.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Ivanova Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <button id="close-cart">Cerrar</button>
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items">
+            <li>No hay productos en el carrito.</li>
+        </ul>
+        <div id="cart-total-sidebar">
+            <!-- Aquí irá el total del carrito y el costo de envío -->
+            <p>Envío: Q0.00</p>
+            <p>Total: Q0.00</p>
+        </div>
+        <button id="continue-shopping" style="display: none;">Continuar para comprar</button>
+    </div>
+
+    <script src="../js/common.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

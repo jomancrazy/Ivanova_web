@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivanova Web - Página de Ventas</title>
+    <link rel="stylesheet" href="../css/index-css.css">
+    <link rel="stylesheet" href="../css/header.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section id="home">
+            <h2>Bienvenido a Ivanova Web</h2>
+            <p>Tu tienda de confianza para los mejores productos y de 
+                mejor calidad.
+            </p>
+        </section>
+        <section id="products">
+            <h2>Los Más Vendidos</h2>
+            <div class="product-grid">
+                <!-- Aquí irán los productos -->
+                <div class="product-item">
+                    <img src="../assets/productos/poligel_beauty.jpeg" alt="Producto 1">
+                    <h3>Poligel Beauty</h3>
+                    <p>Q100.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/drill_grande.jpeg" alt="Producto 1">
+                    <h3>Drill</h3>
+                    <p>Q1250.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/poligel_cover_pink.jpeg" alt="Producto 1">
+                    <h3>Poligel Cover Pink</h3>
+                    <p>Q100.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/poligel_christmas.jpeg" alt="Producto 1">
+                    <h3>Poligel Christmas</h3>
+                    <p>Q75.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/poligel_rose_1.jpeg" alt="Producto 1">
+                    <h3>Poligel Rose 1 Ivanova</h3>
+                    <p>Q100.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <div class="product-item">
+                    <img src="../assets/productos/builder/modeling_gel_melon.jpeg" alt="Producto 1">
+                    <h3>Modeling Gel Melon</h3>
+                    <p>Q125.00</p>
+                    <button class="add-to-cart">Añadir</button>
+                </div>
+                <!-- ... -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Ivanova Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <h2>Carrito de Compras</h2>
+        <ul id="cart-items">
+            <li>No hay productos en el carrito.</li>
+        </ul>
+        <div id="cart-total-sidebar">
+            <!-- Aquí irá el total del carrito y el costo de envío -->
+            <p>Envío: Q0.00</p>
+            <p>Total: Q0.00</p>
+        </div>
+        <button id="continue-shopping" style="display: none;">Continuar para comprar</button>
+        <button id="close-cart">Cerrar</button>
+    </div>
+    <script src="../js/index.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/header.js" defer></script>
+</body>
+</html>

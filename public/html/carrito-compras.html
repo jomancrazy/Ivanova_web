@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Ivanova Web</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/carrito-compras-estilo.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <section id="cart">
+            <h2>Carrito de Compras</h2>
+            <table id="cart-table">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Nombre</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                        <th>Total</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items">
+                    <!-- Aquí irán los productos del carrito -->
+                </tbody>
+            </table>
+            <div id="cart-total">
+                <!-- Aquí irá el total del carrito y el costo de envío -->
+                <p>Envío: Q0.00</p>
+                <p>Total: Q0.00</p>
+            </div>
+            <button id="checkout-button">Proceder al Pago</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Ivanova Web. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../js/common.js"></script>
+    <script src="../js/carrito-compras.js"></script>
+</body>
+</html>
